@@ -3,3 +3,5 @@
 !.gitconfig
 !.ssh
 !.ssh/config
+!.bashrc
+!.bash_profile
