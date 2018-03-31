@@ -1,3 +1,5 @@
 *
 !.gitignore
 !.gitconfig
+!.ssh
+!.ssh/config
