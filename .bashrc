@@ -18,3 +18,4 @@ function ssh_add {
 
 eval `ssh-agent`
 ssh_add .ssh/github_rsa
+ssh_add .ssh/unitq-aws-dev-deklov
