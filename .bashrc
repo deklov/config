@@ -5,8 +5,14 @@ source .bash_aliases
 
 function ssh_add {
     file="$1"
+    
+    name=`uname`
+    if [ $name == "Darwin" ]; then
+        options="-K"
+    fi
+
     if [ -e $file ]; then
-        ssh-add -K $file
+        ssh-add $options $file
     fi
 }
 
