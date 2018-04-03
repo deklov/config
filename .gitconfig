@@ -2,7 +2,7 @@
     name = David Eklov
     email = david.eklov@gmail.com
 [core]
-    pager =
+    pager = less
     editor = vim
 [alias]
     br = branch
