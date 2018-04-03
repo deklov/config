@@ -1,3 +1,7 @@
+if [ -z "$PS1" ]; then
+    return
+fi
+
 PATH="$PATH:$HOME/install/bin"
 PATH="$PATH:$HOME/install/homebrew/bin"
 
