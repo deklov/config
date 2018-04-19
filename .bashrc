@@ -5,7 +5,7 @@ fi
 PATH="$PATH:$HOME/install/bin"
 PATH="$PATH:$HOME/install/homebrew/bin"
 
-source .bash_aliases
+source ~/.bash_aliases
 
 function ssh_add {
     file="$1"
@@ -21,5 +21,5 @@ function ssh_add {
 }
 
 eval `ssh-agent`
-ssh_add .ssh/github_rsa
-ssh_add .ssh/unitq-aws-dev-deklov
+ssh_add ~/.ssh/github_rsa
+ssh_add ~/.ssh/unitq-aws-dev-deklov
