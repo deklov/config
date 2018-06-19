@@ -4,6 +4,7 @@ fi
 
 PATH="$PATH:$HOME/install/bin"
 PATH="$PATH:$HOME/install/homebrew/bin"
+PATH="$PATH:$HOME/install/gradle-4.8-rc-2/bin"
 
 source ~/.bash_aliases
 
