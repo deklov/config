@@ -1,4 +1,4 @@
-alias ll="ls -lrt"
+alias ll="ls -lrth"
 alias v="vim"
 
 alias t="tmux"
