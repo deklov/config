@@ -6,4 +6,6 @@ alias tl="tmux ls"
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
 
+alias k="kubectl"
+
 alias qrun="$HOME/unitq/containers/run"
